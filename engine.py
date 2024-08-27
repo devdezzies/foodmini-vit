@@ -118,7 +118,7 @@ def train(model: torch.nn.Module,
          loss_fn: torch.nn.Module, 
          epochs: int, 
          device: torch.device, 
-         writer: torch.utils.tensorboard.writer.SummaryWriter) -> Dict[str, List]:
+         writer: torch.utils.tensorboard.writer.SummaryWriter = None) -> Dict[str, List]:
     """Trains and tests pytorch model
 
     passes a target model through train_step() and test_step() 
