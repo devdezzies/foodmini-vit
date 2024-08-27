@@ -1,2 +1,2 @@
-/models/*pt filter=lfs diff=lfs merge=lfs -text
+/models/pretrained_vit.pt filter=lfs diff=lfs merge=lfs -text
 /models/*.pt filter=lfs diff=lfs merge=lfs -text
